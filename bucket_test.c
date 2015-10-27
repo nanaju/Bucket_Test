@@ -14,17 +14,10 @@ int buckets[M];
 int i ;
 int main(void){
 	int numbers[] = {3,5,1,7,4,2,6};
-	printf("最初\nnumbers=");
-
-	for(i = 0; i < N; i++){
-	printf("%d,",numbers[i]);
-	}
-	printf("\nbuckets作成\nbuckets=");
 
 	//buckets作成
 	for (i = 0; i<M; i++){
 		buckets[i] = 0;
-		printf("%d,",buckets[i]);
 	}
 
 	//bucketにデータを入れる データが"3"なら、buckets[3]に入る
