@@ -26,8 +26,6 @@ int main(void){
 	}
 	
 
-	//デバッグ用　printf("baket入れる numbers[1]=%d backet[1]=%d\n ",numbers[1], buckets[1]);
-
 	//bucketから、元のnumbers配列に順番に数値を戻す
 	int j = 0;
 	for(i = 0; i < 8; i++){
@@ -40,9 +38,5 @@ int main(void){
 	printf("%d",numbers[i]);
 	}
 	printf("\n");
-
-//デバッグ用　printf("last numbers[1]=%d backet[7]=%d\n ",numbers[1], buckets[7]);
-
-
 
 }
